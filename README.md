@@ -1,11 +1,11 @@
 ### CCVS: Camera Calibration for Video Surveillance Toolbox
 
-A paper about this method is under review.
+A matlab toolbox for easy camera calibration in video surveillance. (a paper about this method is under review)
 
 #### Introduction
 Most cameras for video surveillance are installed in high positions with a slightly tilted angle. In such installation, it is possible to retain only three calibration parameters in the original camera model, namely the focal length (f), tilting angle (theta) and camera height (c). These parameters can be directly solved by a nonlinear curve fitting using the observed head and foot points of a walking human. This toolbox privdes several functions and sample data needed to demonstrate this method.
 
-#### List of scripts
+#### List of scripts (demo)
 Calibrating camera using head/foot points data
  - CalibrationDemo.m
 
