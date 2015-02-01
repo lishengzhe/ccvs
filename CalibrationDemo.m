@@ -13,10 +13,10 @@ k = [0.6322 0.5731 -0.6 0.4]; % cam01 cam02
 % k = [0.1890 0.1996 -0.2 0]; % cam05
 
 % most precise, k is needed
-ftc = CalibrateXYdFromFile(filename,  width, height,ftc0, k)
+ftc = CalibrateFromFileXYd(filename,  width, height,ftc0, k)
 
 % suitble for many cases
-ftc = CalibrateXYFromFile(filename,  width, height,ftc0)
+ftc = CalibrateFromFileXY(filename,  width, height,ftc0)
 
 % use only Y coordinates, only for height estimation
-ftc = CalibrateYFromFile(filename, width, height,ftc0)
+ftc = CalibrateFromFileY(filename, width, height,ftc0)
