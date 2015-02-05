@@ -44,4 +44,10 @@ Sample data is under /data folder.
 http://vision.inha.ac.kr
 
 
+#### License
+This code is free software; you can redistribute it and/or modify
+it under the terms of the GNU General Public License version 2 as
+published by the Free Software Foundation.
+
+(C) 2015 Shengzhe Li <lishengzhe@gmail.com>
 
