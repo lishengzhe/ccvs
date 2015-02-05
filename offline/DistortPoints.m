@@ -1,6 +1,12 @@
 function [ ydata ] = DistortPoints( x, xdata)
 %UNDISTORTPOINT Summary of this function goes here
 %   Detailed explanation goes here
+% 
+% (C) 2015 Shengzhe Li <lishengzhe@gmail.com>
+% 
+% This code is free software; you can redistribute it and/or modify
+% it under the terms of the GNU General Public License version 2 as
+% published by the Free Software Foundation.
 
 kd1=x(1);
 kd2=x(2);

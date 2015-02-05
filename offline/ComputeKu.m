@@ -1,6 +1,12 @@
 function [ ku ] = ComputeKu( kd, unit )
 %UNTITLED3 Summary of this function goes here
 %   Detailed explanation goes here
+% 
+% (C) 2015 Shengzhe Li <lishengzhe@gmail.com>
+% 
+% This code is free software; you can redistribute it and/or modify
+% it under the terms of the GNU General Public License version 2 as
+% published by the Free Software Foundation.
 
 if nargin < 2
     unit = 0.01;

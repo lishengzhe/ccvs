@@ -1,6 +1,13 @@
 function [ dst ] = DistortImage( src,scale, k1, k2 )
 %UNDISTORT Summary of this function goes here
 %   Detailed explanation goes here
+% 
+% (C) 2015 Shengzhe Li <lishengzhe@gmail.com>
+% 
+% This code is free software; you can redistribute it and/or modify
+% it under the terms of the GNU General Public License version 2 as
+% published by the Free Software Foundation.
+
 if nargin < 4
     k2=0;
 end
