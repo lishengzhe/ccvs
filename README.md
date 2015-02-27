@@ -51,3 +51,7 @@ published by the Free Software Foundation.
 
 (C) 2015 Shengzhe Li <lishengzhe@gmail.com>
 
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/lishengzhe/ccvs/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
