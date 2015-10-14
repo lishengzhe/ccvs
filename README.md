@@ -1,6 +1,6 @@
 ### CCVS: Camera Calibration for Video Surveillance Toolbox
 
-A matlab toolbox for easy camera calibration in video surveillance. (a paper about this method is under review, slides for this method can be found in http://www.slideshare.net/EdisonLee1/li2014-calibration )
+A matlab toolbox for easy camera calibration in video surveillance. (a paper about this method can be found at http://jivp.eurasipjournals.springeropen.com/articles/10.1186/s13640-015-0086-1, the slides can be found at  http://www.slideshare.net/EdisonLee1/li2014-calibration )
 
 ![Concept of CCVS toolbox](https://github.com/lishengzhe/ccvs/blob/master/wiki-images/ccvs-concept.png)
 
