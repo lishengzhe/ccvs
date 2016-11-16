@@ -7,15 +7,23 @@ A matlab toolbox for easy camera calibration in video surveillance. (a paper abo
 #### Introduction
 Most cameras for video surveillance are installed in high positions with a slightly tilted angle. In such installation, it is possible to retain only three calibration parameters in the original camera model, namely the focal length (f), tilting angle (theta) and camera height (c). These parameters can be directly solved by a nonlinear curve fitting using the observed head and foot points of a walking human. This toolbox privdes several functions and sample data needed to demonstrate this method.
 
+#### Update from v1
+Cost function in Eq. 12 in the paper has been changed using image coordinates to improve accuracy. 
+Read doc\evaluation.docx to run the demo. 
+
+#### Generate Figs in the paper (update)
+ - src\LOA_Human.m
+ - src\LOA_Ruler.m
+
 #### List of scripts (demo)
 Calibrating camera using head/foot points data
- - CalibrationDemo.m
+ - src\CalibrationDemo.m
 
 Evaluating performance of calibration and height estimation
- - CrossValidationY.m - using Y only
- - CrossValidationYd.m - using Y only (distortion corrected)
- - CrossValidationXY.m - using X and Y
- - CrossValidationXYd.m - using X and Y (distortion corrected)
+ - src\CrossValidationV3_Y.m - using Y only
+ - src\CrossValidationV3_Yd.m - using Y only (distortion corrected)
+ - src\CrossValidationV3_XY.m - using X and Y
+ - src\CrossValidationV3_XYd.m - using X and Y (distortion corrected)
 
 Demonstrating distortion correction
  - UndistortionDemo.m
