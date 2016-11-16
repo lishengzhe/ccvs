@@ -9,7 +9,10 @@ Most cameras for video surveillance are installed in high positions with a sligh
 
 #### Update from v1
 Cost function in Eq. 12 in the paper has been changed using image coordinates to improve accuracy. 
+
 Read doc\evaluation.docx to run the demo. 
+
+All videos can be download from http://pan.baidu.com/s/1cKeAv0 
 
 #### Generate Figs in the paper (update)
  - src\LOA_Human.m
