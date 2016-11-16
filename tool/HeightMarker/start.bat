@@ -1,1 +1,1 @@
-HeightMarker.exe cam01.mkv cam01.txt
+HeightMarker.exe cam01.avi cam01.txt
