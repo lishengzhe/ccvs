@@ -12,7 +12,7 @@ Cost function in Eq. 12 in the paper has been changed using image coordinates to
 
 Read doc\evaluation.docx to run the demo. 
 
-All videos can be download from http://pan.baidu.com/s/1cKeAv0 
+All videos can be download from https://drive.google.com/open?id=0B4hRwHlRQxqXS1Q3c0QySnVEdVk
 
 #### Generate Figs in the paper (update)
  - src\LOA_Human.m
